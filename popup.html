@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Astra Ad Blocker</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="app-container">
+        <div class="header">
+            <div class="logo-container">
+                <div class="logo-text">ASTRA</div>
+                <div class="status" id="statusText">active</div>
+            </div>
+            <label class="theme-switch">
+                <input type="checkbox" id="themeToggle">
+                <span class="slider"></span>
+            </label>
+        </div>
+        
+        <div class="animation-container">
+            <img src="assets/astra-shield.gif" alt="Astra Shield" class="shield-animation">
+        </div>
+        
+        <div class="stats-container">
+            <div class="stat">
+                <div class="stat-value" id="blockedCount">0</div>
+                <div class="stat-label">Blocked ads</div>
+            </div>
+            <div class="stat">
+                <div class="stat-value" id="uptime">0:00</div>
+                <div class="stat-label">Active time</div>
+            </div>
+        </div>
+        
+        <button class="control-btn" id="toggleBtn">Disable</button>
+        
+        <div class="loading-bar">
+            <div class="loading-progress" id="loadingProgress"></div>
+        </div>
+        
+        <div class="stats-info">
+            <div class="stat-item">
+                <div class="stat-number" id="filtersCount">0</div>
+                <div class="stat-title">FILTERS</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number" id="trackersCount">0</div>
+                <div class="stat-title">TRACKERS</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number" id="scriptsCount">0</div>
+                <div class="stat-title">SCRIPTS</div>
+            </div>
+        </div>
+        
+        <div class="last-update" id="lastUpdate">Updated: just now</div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
