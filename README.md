@@ -4,7 +4,7 @@
   </picture>
 </p>
 <h3 align="center">
-  Azure: Your Comprehensive Ad-Blocker and Privacy Guard
+  Astra: Your Comprehensive Ad-Blocker and Privacy Guard
 </h3>
 
 
