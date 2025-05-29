@@ -25,8 +25,8 @@ Go to chrome://extensions, enable Developer Mode, and drag/drop the file.
 
 ### Manual Build:
 ```bash
-git clone https://github.com/excepterr/azure-extensions.git
-cd azure-extensions
+git clone https://github.com/excepterr/astra-extensions.git
+cd astra-extensions
 npm install
 npm run build  # Outputs to /dist
 ```
