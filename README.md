@@ -1,3 +1,3 @@
 # azure-extensions
 Simple, free and efficient ad-blocker and privacy guard for Windows, macOS and Linux
-![Demo GIF](./astra_demo.gif)
+<video src="https://excepterr.github.io/azure-extensions/astra_demo.gif" controls width="300" height="auto"></video>
